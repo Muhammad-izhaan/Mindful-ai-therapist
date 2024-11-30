@@ -1,62 +1,69 @@
-# MindfulAI Therapist
+# MindfulAI: AI-Powered Therapy Assistant 
 
 ## Overview
-MindfulAI is an advanced AI-powered therapy assistant web application designed to provide compassionate, professional mental health support through an intuitive voice and text-based interface.
+MindfulAI is an advanced, empathetic AI therapy assistant designed to provide professional, supportive conversational support through a modern web interface.
 
-## 🌟 Features
-- Real-time AI-powered therapy conversations
-- Voice and text interaction
-- Professional, empathetic communication
-- Advanced language model (Groq's Mixtral)
-- Responsive and modern UI
+## Features
+- **AI-Powered Communication**: Leveraging Groq's Mixtral-8x7b model
+- **Professional Design**: Dark blue gradient theme with responsive layout
+- **Markdown-like Text Formatting**
+- **Smooth User Experience**: Animated message interactions
 
-## 🛠 Tech Stack
-- React + TypeScript
-- Vite
-- TailwindCSS
-- Zustand (State Management)
-- Groq AI API
-- Web Speech API
+## Tech Stack
+- **Frontend**: React + TypeScript + Vite
+- **Styling**: TailwindCSS
+- **State Management**: Zustand
+- **AI Model**: Groq Mixtral
 
-## 📦 Installation
-
-### Prerequisites
-- Node.js (v16+)
+## Prerequisites
+- Node.js (v18+)
 - npm or yarn
 
-### Setup
+## Installation
+
 1. Clone the repository
 ```bash
 git clone https://github.com/Muhammad-izhaan/Mindful-ai-therapist.git
+cd Mindful-ai-therapist
 ```
 
 2. Install dependencies
 ```bash
-cd mindful-ai-therapist
 npm install
 ```
 
 3. Set up environment variables
-Create a `.env` file and add:
+Create a `.env` file in the root directory:
 ```
-VITE_GROQ_API_KEY=your_groq_api_key
+VITE_GROQ_API_KEY=your_groq_api_key_here
 ```
 
-4. Run the application
+## Running the Application
 ```bash
 npm run dev
 ```
 
-## 🔐 License
-Apache License 2.0
+## Security & Privacy
+- Confidential conversation handling
+- Minimal data retention
+- Professional, empathetic AI responses
 
-## 🤝 Contributing
-Contributions are welcome! Please read the contributing guidelines before getting started.
+## Future Roadmap
+- Enhanced conversation memory
+- More sophisticated AI prompting
+- Accessibility improvements
+- Multilingual support
 
-## 📞 Contact
+## License
+Apache 2.0
+
+## Contributing
+Contributions are welcome! Please read our contributing guidelines.
+
+## Screenshots
+![MindfulAI Interface](screenshots/interface.png)
+
+## Contact
 Muhammad Izhaan - mohammadizhan710@gmail.com
 
-## 🙏 Acknowledgments
-- Groq AI
-- React Community
-- Open Source Contributors
+Built with Groq mental health support.
